@@ -1,0 +1,57 @@
+body{
+    min-width: 290px;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+header{
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 300px;
+    border-right: ridge ;
+}
+
+    header h1{
+        font-size: 28px;
+        font-weight: lighter;
+        margin-left: 25px;
+    }
+
+    header ul{
+        list-style-type: none;
+        list-style-position: inside;
+        padding-left: 0px;
+    }
+
+    header li{
+        
+        border-top: solid #000000 1px;
+        padding: 14px;
+        
+    }
+
+    header a {
+        text-decoration: none;
+        font-size: 16px;
+        margin-left: 10px;
+        color: #000000;
+        
+    }
+
+.scroll{
+    overflow-y: scroll;
+    height: 88%;
+    overflow-x: hidden; 
+}
+
+.main-sec{
+    position: absolute;
+    margin-left: 310px;
+    padding: 0px 20px;
+}
+    .main-sec h1{
+        font-size: 28px;
+        font-weight: lighter;
+    }
