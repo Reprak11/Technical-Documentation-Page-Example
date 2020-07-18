@@ -52,7 +52,7 @@ header{
     padding: 0px 20px;
 }
     .main-sec article{
-        margin-left: 15px;
+        margin: 15px;
         font-weight: lighter;
         color: #4d4e53;
     }
@@ -62,6 +62,7 @@ header{
     }
     .main-sec p{
         font-size: 15px;
+        line-height: 1.5;
     }
     .main-sec code{
         display: block;
@@ -72,4 +73,29 @@ header{
         padding:15px;
         background-color: #f7f7f7;
         position: relative;
+    }
+    .main-sec li{
+        margin: 15px 20px 0px 20px;
+        font-size: 15px;
+    }
+    @media only screen and (max-width: 815px){
+        header{
+            top:0;
+            position: absolute;
+            display: block;
+            height: 245px;
+            width: 100%;
+        }
+        .main-sec{
+            display: block;
+            margin-left: 0px;
+            margin-top: 270px;
+        }
+        header h1{
+            text-align: center;
+        }
+        header ul{
+            border: 1px #000000 solid;
+        }
+
     }
